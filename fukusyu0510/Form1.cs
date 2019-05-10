@@ -20,10 +20,9 @@ namespace fukusyu0510
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Height = 100;
-            button1.Width = 100;
-            
+            button1.Width = 100;     
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             button2.BackColor = Color.Aqua;
@@ -33,6 +32,7 @@ namespace fukusyu0510
         private void button3_Click(object sender, EventArgs e)
         {
             button3.Enabled = false;
+            
         }
     }
 }
